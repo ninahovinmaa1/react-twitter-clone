@@ -19,7 +19,7 @@ function App() {
   ]
 
   return (
-    <div className="container">
+    <div className="container mt-5">
        {tweetList.map((item, index) => {
 
         return <Tweet 
